@@ -43,7 +43,7 @@ protected void setdispenser1(){
 	dispenser1[3].obtainFoodInfo(1.75, "Milk","Calcium for Bones" , 20);
 	dispenser1[4].obtainFoodInfo(1.00, "HoneyBar","natural sugar for some energy" , 20);
 	dispenser1[5].obtainFoodInfo(1.40, "CheerioBar","the bar with 100% whole oats" , 20);
-	dispenser1[6].obtainFoodInfo(1.35, "BlueBerry juice","to help clear your head" , 20);
+	dispenser1[6].obtainFoodInfo(1.35, "BlueBerryJuice","to help clear your head" , 20);
 	dispenser1[7].obtainFoodInfo(1.00, "OatBar","filled with Fiber" , 20);
 	dispenser1[8].obtainFoodInfo(1.50, "WaterBottle","vital for keeping your hydrated" , 20);
 	dispenser1[9].obtainFoodInfo(1.45, "CarrotPack","a rich source of Vitamin A" , 20);

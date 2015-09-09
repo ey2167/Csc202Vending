@@ -31,7 +31,7 @@ public String obtainfilename2(){
 
 public void SaveSales1(Dispenser vending){
 	try {
-		outputvending1 = new PrintWriter(new FileOutputStream(obtainfilename1(),true));
+		outputvending1 = new PrintWriter(new FileOutputStream(obtainfilename1(),false));
 	} catch (FileNotFoundException e) {
 		// TODO Auto-generated catch block
 		System.out.println("no file found");
@@ -41,6 +41,8 @@ public void SaveSales1(Dispenser vending){
 	System.out.println();
 	for(int i = 0; i<10; i++){
 		outputvending1.println("Sales of item '" + vending.dispenser1[i].foodname + "' "+ vending.dispenser1[i].foodprice * (20 -vending.dispenser1[i].foodamount));
+		outputvending1.println();
+		outputvending1.println("Amount of " + vending.dispenser1[i].foodname + ": " + vending.dispenser1[i].foodamount );
 		outputvending1.println();
 	}
 	outputvending1.close();
@@ -57,6 +59,8 @@ public void SaveSales2(Dispenser vending){
 	System.out.println();
 	for(int i = 0; i<10; i++){
 		outputvending2.println("Sales of item '" + vending.dispenser2[i].foodname + "' " + vending.dispenser2[i].foodprice * (20 -vending.dispenser2[i].foodamount));
+		outputvending2.println();
+		outputvending2.println("Amount of " + vending.dispenser2[i].foodname + ": " + vending.dispenser2[i].foodamount );
 		outputvending2.println();
 	}
 	outputvending2.close();
