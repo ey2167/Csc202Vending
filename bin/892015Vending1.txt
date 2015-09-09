@@ -1,0 +1,42 @@
+the current date is: 892015
+Sales of item 'Apple0.0
+
+Sales of item 'Banana0.0
+
+Sales of item 'Orange0.0
+
+Sales of item 'Milk0.0
+
+Sales of item 'HoneyBar0.0
+
+Sales of item 'CheerioBar0.0
+
+Sales of item 'BlueBerry juice0.0
+
+Sales of item 'OatBar0.0
+
+Sales of item 'WaterBottle0.0
+
+Sales of item 'CarrotPack1.45
+
+the current date is: 892015
+Sales of item 'Apple' 0.0
+
+Sales of item 'Banana' 0.0
+
+Sales of item 'Orange' 0.0
+
+Sales of item 'Milk' 0.0
+
+Sales of item 'HoneyBar' 0.0
+
+Sales of item 'CheerioBar' 0.0
+
+Sales of item 'BlueBerry juice' 0.0
+
+Sales of item 'OatBar' 0.0
+
+Sales of item 'WaterBottle' 0.0
+
+Sales of item 'CarrotPack' 2.9
+
